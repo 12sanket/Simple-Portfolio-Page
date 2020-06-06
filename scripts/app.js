@@ -1,6 +1,7 @@
-const tags = ['building things','coding','design','sunsets','art','photography','color','minimalism','aesthetics']
+const tags = ['building things','coding','design','minimalism','sunsets','photography','colors','aesthetics','art']
 
 let index = 0
+
 
 setInterval(()=>{
     if(index === tags.length){
@@ -8,4 +9,4 @@ setInterval(()=>{
     }
     document.getElementById('tag').innerText = tags[index];
     index++
-}, 2000)
+}, 3000)
