@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -22,6 +23,37 @@ body {
 
 .name-box{
     display: grid;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
+    padding-bottom: 50px;
+}
+
+.name-box div {
+    display: inline-flex;
+    padding: 5px;
+}
+
+.title{
+    margin: 0px 100px 0px 100px;
+}
+
+.tagline{
+    margin: 0px 0px 0px 100px;
+}
+
+.title span{
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+.tagline span{
+    font-size: 3vw;
+}
+
+.name {
+    color: black;
+}
+
+.greeting {
+    color: grey;
 }
