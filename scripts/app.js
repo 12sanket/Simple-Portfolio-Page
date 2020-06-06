@@ -12,4 +12,5 @@ setInterval(()=>{
 
 function toggleBottomBar(){
     document.getElementById('bottom-bar').classList.toggle('active')
+    document.getElementById('name-box').classList.toggle('active')
 }
