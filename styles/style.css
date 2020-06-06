@@ -66,10 +66,15 @@ body {
 
 .greeting {
     color: grey;
+    padding-right: 2vw;
+}
+
+.tag-start{
+    padding-right: 1vw;
 }
 
 #tag{
-    color: #ffd31d;
+    color: gold;
 }
 
 .up-button{
@@ -86,7 +91,7 @@ body {
     width: 100%;
     height: 150px;
     bottom: -150px;
-    background-color:#ffd31d;
+    background-color:gold;
     transition: all 500ms linear;
     display: flex;
     justify-content: center;
@@ -162,11 +167,33 @@ body {
     }
 
     .title{
+        display: block;
         margin: 0px 40px 0px 40px;
     }
     
     .tagline{
+        display: block;
         margin: 0px 40px 0px 40px;
     }
     
+    .name-box div {
+        display: block;
+        padding: 5px;
+    }
+    
+    .greeting{
+        display: block;
+    }
+
+    .name{
+        display: block;
+    }
+
+    .tag-start{
+        display: block;
+    }
+
+    .tag{
+        display: block;
+    }
 }
