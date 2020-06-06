@@ -1,4 +1,4 @@
-const tags = ['building things','coding','design','minimalism','sunsets','photography','colors','aesthetics','art']
+const tags = ['creating things','coding','design','minimalism','sunsets','photography','colors','aesthetics','art']
 
 let index = 0
 
@@ -9,3 +9,7 @@ setInterval(()=>{
     document.getElementById('tag').innerText = tags[index];
     index++
 }, 3000)
+
+function toggleBottomBar(){
+    document.getElementById('bottom-bar').classList.toggle('active')
+}
