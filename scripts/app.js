@@ -2,7 +2,6 @@ const tags = ['building things','coding','design','minimalism','sunsets','photog
 
 let index = 0
 
-
 setInterval(()=>{
     if(index === tags.length){
         index = 0
