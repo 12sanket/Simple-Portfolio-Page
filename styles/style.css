@@ -84,8 +84,8 @@ body {
     position: fixed;
     width: 100%;
     height: 100px;
-    bottom: -100px;
-    background-color: #fff;
+    bottom: -10%;
+    background-color: transparent;
     align-content: flex-end;
     transition: all 500ms linear;
     display: flex;
@@ -97,12 +97,18 @@ body {
     bottom: 0px;
 }
 
+#bottom-bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #bottom-bar ul li {
     list-style: none;
-    display: inline-flex;
-    padding: 10px 50px 10px 50px;
-    justify-content: center;
-    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #bottom-bar ul li img{
