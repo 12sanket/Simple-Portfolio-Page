@@ -82,6 +82,17 @@ body {
     height: 48px;
 }
 
+.up-button.rotate-up{
+    transform: rotate(180deg);
+    transition-duration: 500ms;
+}
+
+.up-button.rotate-down{
+    transform: rotate(180deg);
+    transition-duration: 500ms;
+}
+
+
 .toggle-button{
     display: block;
 }
