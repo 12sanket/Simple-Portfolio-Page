@@ -158,7 +158,15 @@ body {
     }
     
     .tagline span{
-        font-size: 40px;
+        font-size: 35px;
     }
 
+    .title{
+        margin: 0px 40px 0px 40px;
+    }
+    
+    .tagline{
+        margin: 0px 40px 0px 40px;
+    }
+    
 }
