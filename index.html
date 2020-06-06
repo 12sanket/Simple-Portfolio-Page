@@ -9,18 +9,26 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div id="particles-js">
+    <div class="wrapper" >
         <div class="name-box">
-        <div class="title">
-            <span class="greeting">Hi, it's <span class="name">SANKET</span></span>
-            
-        </div>
-        <div class="tagline">
-            <span>a guy who loves <span id="tag"></span></h1>
+            <div class="title">
+                <span class="greeting">Hi, it's <span class="name">SANKET</span></span>
+
+            </div>
+            <div class="tagline">
+                <span>a guy who loves <span id="tag">art</span></h1>
+            </div>
         </div>
     </div>
-    </div>
+</div>
     <script src="/scripts/app.js"></script>
+    <script src="/scripts/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', '/assets/particles.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
 </body>
 
 </html>
