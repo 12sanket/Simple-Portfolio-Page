@@ -51,7 +51,7 @@ body {
 }
 
 .title span{
-    font-size: 6vw;
+    font-size: 7vw;
     font-weight: bold;
 }
 
@@ -65,4 +65,8 @@ body {
 
 .greeting {
     color: grey;
+}
+
+#tag{
+    color: rgb(240, 204, 0);
 }
