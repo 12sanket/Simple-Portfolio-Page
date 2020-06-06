@@ -1,4 +1,4 @@
-const tags = ['creating things','coding','design','minimalism','sunsets','photography','colors','aesthetics','art']
+const tags = ['creating things','coding','design','minimalism','sunsets','photography','colors','aesthetics','making art']
 
 let index = 0
 
