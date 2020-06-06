@@ -76,6 +76,10 @@ body {
     height: 48px;
 }
 
+.toggle-button{
+    display: block;
+}
+
 #bottom-bar {
     position: fixed;
     width: 100%;
@@ -95,7 +99,15 @@ body {
 
 #bottom-bar ul li {
     list-style: none;
-    display: inline;
+    display: inline-flex;
+    padding: 10px 50px 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom-bar ul li img{
+    width: 32px;
+    height: 32px;
 }
 
 #bottom-bar .toggle-button {
