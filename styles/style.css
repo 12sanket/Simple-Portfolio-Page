@@ -77,8 +77,8 @@ body {
 }
 
 .up-button{
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
 }
 
 .up-button.rotate-up{
@@ -92,8 +92,8 @@ body {
 }
 
 .profile-pic{
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
 }
 
 .toggle-button{
