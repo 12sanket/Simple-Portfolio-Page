@@ -8,7 +8,7 @@
     <title>Sanket's World</title>
 </head>
 
-<body>
+<body  onload="document.body.classList.add('loaded')">
     <!-- Main page -->
     <div id="particles-js">
         <div class="wrapper">
@@ -27,7 +27,7 @@
     </div>
 
     <!-- Bio section -->
-    <div class="bio-container" id="bio-container">
+    <main class="bio-container" id="bio-container">
         <div class="bio-content">
             <img class="profile-pic" src="/assets/profile.png">
             <div class="bio-box">
@@ -40,7 +40,7 @@
             </div>
             <img class="close-button" onclick="closeBio()" src="/assets/up-yellow.png">
         </div>       
-    </div>
+    </main>
 
     <!-- Contact section -->
     <div id="bottom-bar">
