@@ -91,9 +91,14 @@ body {
     transition-duration: 500ms;
 }
 
+.profile-pic{
+    width: 32px;
+    height: 32px;
+}
 
 .toggle-button{
     display: block;
+    cursor: pointer;
 }
 
 
@@ -127,7 +132,9 @@ body {
     height: 32px;
     align-self: center;
     justify-self: center;
+    cursor: pointer;
 }
+
 
 img.circle-button {
     margin: 30px;
@@ -168,6 +175,7 @@ img.circle-button {
 .close-button{
     width: 32px;
     height: 32px;
+    cursor: pointer;
 }
 
 .social-media{
