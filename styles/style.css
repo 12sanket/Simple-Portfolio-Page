@@ -25,7 +25,7 @@ body {
 .loaded {
     opacity : 1;
  }
- 
+
 .wrapper{
     display: flex;
     height: 100%;
@@ -276,5 +276,13 @@ img.circle-button {
 
     .bio br{
         display: none;
+    }
+
+    .toggle-button{
+        cursor: default;
+    }
+
+    .circle-button{
+        cursor: default;
     }
 }
