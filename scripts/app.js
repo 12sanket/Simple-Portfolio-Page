@@ -18,10 +18,12 @@ function toggleBottomBar() {
 
 function openBio() {
     document.getElementById('bio-container').style.height = '100%'
+    document.getElementById('name-box').classList.toggle('remove')
 }
 
 function closeBio() {
     document.getElementById('bio-container').style.height = '0%'
+    document.getElementById('name-box').classList.toggle('remove')
 }
 
 var upButton = document.getElementById('up-button');

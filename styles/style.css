@@ -34,7 +34,7 @@ body {
     display: grid;
     justify-content: center;
     align-content: center;
-    transition: all 500ms linear;
+    transition: all 1s ease-in-out;
 }
 
 .name-box div {
@@ -111,6 +111,10 @@ body {
 
 #name-box.active {
     margin-bottom: 150px;
+}
+
+#name-box.remove{
+    margin-top: 100%;
 }
 
 #bottom-bar.active {
@@ -250,5 +254,14 @@ img.circle-button {
 
     .tag{
         display: block;
+    }
+
+    .bio-box {
+        width: 80%;
+        line-height: 2;
+    }
+
+    .bio br{
+        display: none;
     }
 }
