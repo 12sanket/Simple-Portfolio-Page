@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!-- Main page -->
     <div id="particles-js">
         <div class="wrapper">
             <div id="name-box" class="name-box">
@@ -20,10 +21,27 @@
                     <span class="tag-start">a guy who loves </span>
                     <span class="tag" id="tag">making art</span>
                 </div>
+                <img class="circle-button" onclick="openBio()" src="/assets/circle.png">
             </div>
         </div>
     </div>
 
+    <!-- Bio section -->
+    <div class="bio-container" id="bio-container">
+        <div class="bio-content">
+            <div class="bio-box">
+                <span>Hello, world!  I'm Sanket and I'm a Frontend Developer based in Pune, India. 
+                I develop clean, simple, and aesthetically pleasing web pages. 
+                My job mostly deals with HTML, CSS, JavaScript, and other web frameworks if required.
+                I thrive for technology and art and I aim to combine them to create brilliant products. 
+                If you want to create your website or talk about tech, business, or life 
+                - hit me up on any social media.</span>
+            </div>
+            <img class="close-button" onclick="closeBio()" src="/assets/up-2.png">
+        </div>       
+    </div>
+
+    <!-- Contact section -->
     <div id="bottom-bar">
         <div class="toggle-button" onclick="toggleBottomBar()">
             <img class="up-button" id="up-button" onclick="toggleRotate()" src="/assets/up.png">

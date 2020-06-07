@@ -15,6 +15,15 @@ function toggleBottomBar() {
     document.getElementById('name-box').classList.toggle('active')
 }
 
+
+function openBio() {
+    document.getElementById('bio-container').style.height = '100%'
+}
+
+function closeBio() {
+    document.getElementById('bio-container').style.height = '0%'
+}
+
 var upButton = document.getElementById('up-button');
 var rotate = 180;
 
